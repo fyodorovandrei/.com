@@ -1,0 +1,57 @@
+{
+	"name": "fyodorovandrei.com",
+	"version": "1.0.0",
+	"description": "My personal website",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": "webpack-dev-server --config ./webpack.config.js --mode development --host 0.0.0.0 --port 5000"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fyodorovandrei/.com.git"
+	},
+	"author": "fyodorovandrei",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/fyodorovandrei/.com/issues"
+	},
+	"homepage": "https://github.com/fyodorovandrei/.com#readme",
+	"dependencies": {
+		"react": "^16.8.6",
+		"react-dom": "^16.8.6",
+		"react-redux": "^7.0.3",
+		"react-router-dom": "^5.0.0",
+		"redux": "^4.0.1",
+		"redux-devtools-extension": "^2.13.8",
+		"redux-logger": "^3.0.6",
+		"redux-thunk": "^2.3.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.2.0",
+		"@babel/plugin-proposal-class-properties": "^7.2.1",
+		"@babel/preset-env": "^7.2.0",
+		"@babel/preset-react": "^7.0.0",
+		"autoprefixer": "^9.4.2",
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.3",
+		"babel-loader": "^8.0.4",
+		"babel-plugin-import": "^1.11.0",
+		"babel-plugin-transform-object-assign": "^6.22.0",
+		"babel-polyfill": "^6.26.0",
+		"browser-sync": "^2.26.3",
+		"browser-sync-webpack-plugin": "^2.2.2",
+		"css-loader": "^2.0.0",
+		"less": "^3.9.0",
+		"less-loader": "^5.0.0",
+		"node-sass": "^4.11.0",
+		"postcss-loader": "^3.0.0",
+		"react-hot-loader": "^4.3.12",
+		"sass-loader": "^7.1.0",
+		"style-loader": "^0.23.1",
+		"url-loader": "^1.1.2",
+		"webpack": "^4.27.1",
+		"webpack-cli": "^3.1.2",
+		"webpack-dev-server": "^3.1.11"
+	}
+}
