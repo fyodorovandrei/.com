@@ -134,6 +134,22 @@ class Main extends Component {
 							<div className="slow second">
 								<div className="info">
 									<span className="lines">---</span>
+									<a className="title" onClick={() => this.typeCMD('about')}>cmd</a>
+									<span className="lines">{'---'.repeat(100)}</span>
+								</div>
+								<div className="subinfo slow">
+									<ul>
+										<li><a onClick={() => this.typeCMD('clear')} className="cmd__">clear</a>{'.'.repeat(23)}<span className="info">( 🧼 clear console )</span></li>
+										<li><a onClick={() => this.typeCMD('hello')} className="cmd__">hello</a>{'.'.repeat(23)}<span className="info">( 💡 show initial message )</span></li>
+									</ul>
+								</div>
+								<div className="info slow">
+									<span className="lines">{'---'.repeat(100)}</span>
+								</div>
+							</div>
+							<div className="slow second">
+								<div className="info">
+									<span className="lines">---</span>
 									<a className="title" onClick={() => this.typeCMD('about')}>about</a>
 									<span className="about">(about me)</span>
 									<span className="lines">{'---'.repeat(100)}</span>
@@ -385,8 +401,8 @@ class Main extends Component {
 				<div className="cmd__view__history" ref={(div) => {this.codeViewHistory = div}} >
 					{this.state.initMessage}
 					{
-						this.state.history.map((h) => {
-							return <div className="cmd__usr__row">
+						this.state.history.map((h,i) => {
+							return <div className="cmd__usr__row" key={i}>
 										<span className="cmd__usr slow">~/fyodorovandrei.com</span> {h}
 										{ this.handleProcessCMD(h) }
 									</div>
