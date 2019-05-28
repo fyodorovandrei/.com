@@ -70,6 +70,7 @@ module.exports = {
 	plugins: [
 		new webpack.HotModuleReplacementPlugin()
 	],
+	devtool: false,
 	devServer: {
 		contentBase: './dist',
 		disableHostCheck: true,
