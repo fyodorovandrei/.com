@@ -1,6 +1,4 @@
-#<a href="https://fyodorovandrei.com" title="personal website">fyodorovandrei.com</a>
-
-<img src="https://sourcerer.io/assets/avatar/fyodorovandrei" width="50" alt="avatar"/>
+# <a href="https://fyodorovandrei.com" title="personal website">fyodorovandrei.com</a>
 
 My name is Andrei Fiodorov. Born in 🇲🇩 Moldova, live in 🇮🇹 Italy. I am a 👨‍💻 Full Stack Developer.
  
