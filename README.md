@@ -1,6 +1,6 @@
 # <a href="https://fyodorovandrei.com" title="personal website">fyodorovandrei.com</a>
 
-My name is Andrei Fiodorov. Born in 🇲🇩 Moldova, live in 🇮🇹 Italy. I am a 👨‍💻 Full Stack Developer.
+👨‍💻 Full Stack Developer.
  
 <a href="https://stackshare.io/fyodorovandrei/my-stack" title="code breakdown"><img width="15" alt="my stack" src="https://stackshare.io/assets/stackshare-icon-black-ed6de150222c6f8392b5d4656099264859383903c2589b20db4127407b52f712.png" /> My Stack</a>
  
